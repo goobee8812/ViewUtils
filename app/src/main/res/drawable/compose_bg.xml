@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/compose_pressed_green" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/compose_pressed_yellow" android:state_focused="true"></item>
+    <item android:drawable="@drawable/compose_pressed_orange"></item>
+</selector>
