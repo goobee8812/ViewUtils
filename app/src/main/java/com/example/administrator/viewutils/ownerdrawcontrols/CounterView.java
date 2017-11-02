@@ -44,6 +44,6 @@ public class CounterView extends View implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         mCount++;
-        invalidate();
+        invalidate(); //重绘
     }
 }

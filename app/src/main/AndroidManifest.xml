@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".leafloading.LeafLoadingActivity">
-
+        </activity>
+        <activity android:name=".weekselection.WeekActivity">
+        </activity>
+        <activity android:name=".refreshview.RefreshViewActivity">
         </activity>
     </application>
 

@@ -39,7 +39,6 @@ public class LeafLoadingActivity extends Activity implements OnSeekBarChangeList
                         mHandler.sendEmptyMessageDelayed(REFRESH_PROGRESS,
                                 new Random().nextInt(1200));
                         mLeafLoadingView.setProgress(mProgress);
-
                     }
                     break;
 

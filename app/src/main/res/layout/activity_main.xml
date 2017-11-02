@@ -31,4 +31,37 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
     </com.example.administrator.viewutils.extendcontrols.MyListView>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_toRightOf="@+id/counterView"
+        android:layout_toEndOf="@+id/counterView">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/weekBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_toEndOf="@+id/counterView"
+                android:layout_toRightOf="@+id/counterView"
+                android:text="Week"/>
+
+            <Button
+                android:id="@+id/refreshBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/weekBtn"
+                android:layout_toEndOf="@+id/counterView"
+                android:layout_toRightOf="@+id/counterView"
+                android:text="Refresh"/>
+        </LinearLayout>
+
+    </ScrollView>
+
 </RelativeLayout>
